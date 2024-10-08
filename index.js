@@ -29,7 +29,7 @@ function addUserToTable(user) {
   row.insertCell(1).textContent = user.email;
   row.insertCell(2).textContent = user.password;
   row.insertCell(3).textContent = user.dob;
-  row.insertCell(4).textContent = user.terms ? "Yes" : "No";
+  row.insertCell(4).textContent = user.terms ? "true" : "false";
 }
 
 // Save user data to local storage
